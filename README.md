@@ -1,6 +1,6 @@
 # GymGem Fitness Training
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed on Netlify [Live website link](https://ph-cwdc-react-gymgem.netlify.app/).
 
 ## Available Scripts
 
