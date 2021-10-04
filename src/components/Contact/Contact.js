@@ -38,6 +38,7 @@ const Contact = () => {
 							<input type="email" placeholder="Your email address" className="w-full h-12 px-4 rounded bg-white text-black" />
 							<input type="tel" placeholder="Your mobile number" className="w-full h-12 px-4 rounded bg-white text-black" />
 							<textarea placeholder="Your message" className="w-full h-40 p-4 rounded bg-white text-black"></textarea>
+							<input type="submit" value="Send" className="btn-regular" />
 						</form>
 					</div>
 				</div>
