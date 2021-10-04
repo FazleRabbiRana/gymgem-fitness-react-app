@@ -1,0 +1,6 @@
+/**
+* Main menu
+*/
+.nav-link {
+	@apply uppercase font-medium text-sm transition-all duration-300;
+}

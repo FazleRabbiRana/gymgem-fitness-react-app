@@ -3,13 +3,13 @@
 @tailwind utilities;
 
 /* google font */
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 @layer base {
   body {
     @apply bg-gray-100 text-gray-500 font-body;
   }
   h1, h2, h3, h4, h5, h6 {
-    @apply text-gray-900 font-title;
+    @apply text-gray-900 font-title font-bold uppercase;
   }
 }
