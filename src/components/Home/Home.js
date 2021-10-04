@@ -1,12 +1,16 @@
 import React from 'react';
+import HomeAbout from '../HomeAbout/HomeAbout';
 import HomeBanner from '../HomeBanner/HomeBanner';
+import HomeServices from '../HomeServices/HomeServices';
 import './Home.css';
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<HomeBanner />
-		</div>
+			<HomeAbout />
+			<HomeServices />
+		</>
 	);
 };
 

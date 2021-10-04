@@ -2,14 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-/* google font */
+/**
+* Google font
+*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap');
 
+/**
+* Base style
+*/
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-gray-100 text-gray-500 font-body;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply text-gray-900 font-title font-bold uppercase;
   }
+}
+
+/* Button */
+.btn-regular {
+  @apply py-2 px-8 bg-my-primary text-white text-sm font-medium rounded duration-300 hover:bg-red-700;
+}
+.btn-outline {
+  @apply text-center p-2 border-2 border-my-primary text-my-primary font-medium rounded-xl duration-300 hover:bg-my-primary hover:text-white;
+}
+
+/**
+* Card style
+*/
+.card {
+  @apply bg-gradient-to-b from-red-500 via-red-300 to-yellow-100 p-1 duration-300 hover:shadow-xl;
+}
+.card-inner {
+  @apply bg-white h-full flex flex-col;
+}
+.card-body {
+  @apply px-4 py-4 flex-auto flex flex-col;
+}
+.card-title {
+  @apply text-xl flex-auto;
+}
+.card-price {
+  @apply mt-4 text-3xl md:text-4xl text-my-primary;
+}
+.card-description {
+  @apply mt-4 text-sm leading-normal;
 }

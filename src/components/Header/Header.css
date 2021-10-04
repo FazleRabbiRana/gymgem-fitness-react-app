@@ -1,6 +1,16 @@
 /**
 * Main menu
 */
+.main-menu-wrapper {
+	@apply bg-gray-900 md:bg-transparent text-gray-100 md:text-gray-600 py-8 md:py-0;
+	width: 220px;
+	top: 60px;
+	right: -220px;
+	transition: transform 0.3s;
+}
+.main-menu-wrapper.active {
+	transform: translate3d(-220px, 0, 0);
+}
 .nav-link {
-	@apply uppercase font-medium text-sm transition-all duration-300;
+	@apply block uppercase font-medium text-lg md:text-sm py-2 md:py-0 px-6 md:px-0 transition-all duration-300;
 }

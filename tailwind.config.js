@@ -4,7 +4,10 @@ module.exports = {
   theme: {
     container: {
       'center': true,
-      'padding': '1rem',
+      'padding': {
+        DEFAULT: '1rem',
+        '2xl': '3rem',
+      },
     },
     extend: {
       fontFamily: {
@@ -17,7 +20,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      transform: ['hover', 'focus', 'group-hover'],
+    },
   },
   plugins: [],
 }
