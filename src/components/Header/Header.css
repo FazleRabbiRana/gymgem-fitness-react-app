@@ -8,9 +8,12 @@
 	right: -220px;
 	transition: transform 0.3s;
 }
-.main-menu-wrapper.active {
-	transform: translate3d(-220px, 0, 0);
-}
 .nav-link {
 	@apply block uppercase font-medium text-lg md:text-sm py-2 md:py-0 px-6 md:px-0 transition-all duration-300;
+}
+
+@media (max-width: 767.98px) {
+	.main-menu-wrapper.active {
+		transform: translate3d(-220px, 0, 0);
+	}
 }
