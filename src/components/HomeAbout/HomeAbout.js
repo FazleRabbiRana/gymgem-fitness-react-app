@@ -17,7 +17,7 @@ const HomeAbout = () => {
 						<h2 className="text-center lg:text-left text-3xl md:text-4xl mb-10">
 							<span className="text-my-primary">About</span> Us
 						</h2>
-						<p>GymGem is family owned and operated since 2001. We are committed to making participation in the event harassment free on experience for everyone. With our vast experienced team our goal is to build a healthy society.</p>
+						<p><span className="font-semibold">GymGem Fitness &amp; Sports</span> is family owned and operated since 2001. We are committed to making participation in the event harassment free on experience for everyone. With our vast experienced team our goal is to build a healthy society.</p>
 						<button onClick={toAboutPage} className="btn-regular mt-6">
 							Learn More
 						</button>

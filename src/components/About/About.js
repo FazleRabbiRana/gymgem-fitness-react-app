@@ -12,7 +12,7 @@ const About = () => {
 				<div className="flex flex-col lg:flex-row">
 					<div className="flex-auto pb-6 lg:py-6 leading-loose">
 						<h3 className="text-xl mb-6">A glorious journey since <span className="font-body">2001</span></h3>
-						<p>GymGem is family owned and operated since 2001. We are committed to making participation in the event harassment free on experience for everyone. With our vast experienced team our goal is to build a healthy society.</p>
+						<p><span className="font-semibold">GymGem Fitness &amp; Sports</span> is family owned and operated since 2001. We are committed to making participation in the event harassment free on experience for everyone. With our vast experienced team our goal is to build a healthy society.</p>
 						<p className="mt-6">We are nurturers: we seek only to encourage, entertain, and empower. We know serious fitness is hard, but that doesn’t mean it can’t be an edge-of-your-seat, can’t-get-enough, look-forward-to-your-workouts party.</p>
 					</div>
 					<div className="flex-shrink-0 lg:w-1/2 lg:pl-12">

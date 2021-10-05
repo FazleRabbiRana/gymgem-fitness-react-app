@@ -27,8 +27,7 @@ const Header = () => {
 							<NavLink 
 								to="/home" 
 								activeStyle={activeLinkStyle}
-								className="nav-link hover:text-my-primary" 
-								onClick={toggleActive} 
+								className="nav-link hover:text-my-primary"
 							>
 								Home
 							</NavLink>
@@ -37,8 +36,7 @@ const Header = () => {
 							<NavLink 
 								to="/about" 
 								activeStyle={activeLinkStyle}
-								className="nav-link hover:text-my-primary" 
-								onClick={toggleActive} 
+								className="nav-link hover:text-my-primary"
 							>
 								About
 							</NavLink>
@@ -47,8 +45,7 @@ const Header = () => {
 							<NavLink 
 								to="/services" 
 								activeStyle={activeLinkStyle}
-								className="nav-link hover:text-my-primary" 
-								onClick={toggleActive} 
+								className="nav-link hover:text-my-primary"
 							>
 								Services
 							</NavLink>
@@ -57,8 +54,7 @@ const Header = () => {
 							<NavLink 
 								to="/contact" 
 								activeStyle={activeLinkStyle}
-								className="nav-link hover:text-my-primary" 
-								onClick={toggleActive} 
+								className="nav-link hover:text-my-primary"
 							>
 								Contact
 							</NavLink>
