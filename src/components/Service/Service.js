@@ -1,14 +1,8 @@
 import React from 'react';
-import { useHistory } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const Service = (props) => {
 	const {id, name, description, price, image} = props.service;
-
-	// to service detail page on click
-	const history = useHistory();
-	const viewServiceDetail = () => {
-		history.push(`/service/${id}`);
-	}
 
 	return (
 		<div className="service card">
@@ -19,13 +13,10 @@ const Service = (props) => {
 				<div className="card-body">
 					<h3 className="card-title">{name}</h3>
 					<h4 className="card-price">{price}</h4>
-					<p className="card-description">{description.length > 112 ? description.slice(0, 112) + '...' : description}</p>
-					<button 
-						onClick={viewServiceDetail}
-						className="mt-4 btn-regular"
-					>
+					<p className="card-description">{description.length > 111 ? description.slice(0, 111) + '...' : description}</p>
+					<Link to={`/service/${id}`} className="btn-regular mt-4">
 						View Details
-					</button>
+					</Link>
 				</div>
 			</div>
 		</div>

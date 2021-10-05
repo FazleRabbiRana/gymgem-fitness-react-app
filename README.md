@@ -1,4 +1,4 @@
-# GymGem Fitness Training
+# GymGem Fitness & Sports
 
 This project is deployed on Netlify [Live website link](https://ph-cwdc-react-gymgem.netlify.app/).
 
@@ -13,8 +13,8 @@ Tailwind CSS is used on this project.
 
 ### `purpose`
 
-This site can be used for any kind of education or learning purposes.
-This demo is about fitness training institute (Gym).
+This site can be used for any kind of educational or teaching purposes.
+This demo is about fitness and sports training.
 
 ### `data`
 
@@ -23,4 +23,5 @@ External link for the data is available too. [JSON data link](https://github.com
 
 ### `icons`
 
-SVG icons are used from [Hero Icons](https://heroicons.com/).
+As there are a very icons are used in this project no Icon library hasn't been installed. 
+Only SVG icons are used from [Hero Icons](https://heroicons.com/).
