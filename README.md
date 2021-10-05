@@ -23,5 +23,5 @@ External link for the data is available too. [JSON data link](https://github.com
 
 ### `icons`
 
-As there are a very icons are used in this project no Icon library hasn't been installed. 
+As there are a very few icons are used in this project no Icon library hasn't been installed.
 Only SVG icons are used from [Hero Icons](https://heroicons.com/).
