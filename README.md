@@ -1,6 +1,6 @@
 # GymGem Fitness & Sports
 
-This project is deployed on Netlify. [Live website link](https://ph-cwdc-react-gymgem.netlify.app/).
+This project is deployed on Netlify. [Live website link](https://ph-cwdc-react-gymgem.netlify.app/)
 
 ## About This Project
 
